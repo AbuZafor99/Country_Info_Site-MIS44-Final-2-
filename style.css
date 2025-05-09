@@ -40,6 +40,56 @@ header p {
     font-size: 1.1rem;
     opacity: 0.9;
 }
+
+/* -----------------search------------------ */
+.search-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.search-box {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#country-input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+#country-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+#search-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+#search-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.hint {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+}
+/* --------------------search-------------- */
 footer {
     background-color: var(--dark-color);
     color: white;
