@@ -148,5 +148,7 @@ document.addEventListener('DOMContentLoaded', function() {
             resultsSection.appendChild(countryCard);
         });
     }
-    
+    function showError(message) {
+        resultsSection.innerHTML = `<div class="error-message"><i class="fas fa-exclamation-circle"></i> ${message}</div>`;
+    }
 });
